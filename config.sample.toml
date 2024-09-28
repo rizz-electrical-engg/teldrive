@@ -1,5 +1,5 @@
 [db]
-  data-source = ""
+  data-source = "mongodb+srv://dhimanrajat:Y8IAGI0lVrMhjvkU@cluster0.mytkgu6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   prepare-stmt = true
   log-level = 1
   [db.pool]
@@ -13,7 +13,7 @@
 
 [jwt]
   allowed-users = [""]
-  secret = ""
+  secret = "f498050fbf53a8e3e4e54e933e544dceea27280d18963e1c9bd526a0443a0f12f7cabaad4868e5cc12cf0788e4de93bbc34f712f3b8b3ca6b898d3aca1fff2b0"
   session-time = "30d"
 
 [log]
@@ -27,7 +27,7 @@
   write-timeout = "1h"
 
 [tg]
-  app-hash = ""
+  app-hash = "e469e84c943ce3b8b056eb6a296f2c67"
   app-id = 0
   app-version = "4.6.3 K"
   bg-bots-limit = 5
